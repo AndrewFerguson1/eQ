@@ -31,7 +31,7 @@ HTML_TEMPLATE = '''
     <div class="container">
         <h1>🎵 3-Band Audio EQ</h1>
         
-        <input type="file" id="audioFile" accept="audio/*" style="margin: 20px 0;">
+        <input type="file" id="audioFile" accept=".wav,.mp3,.m4a,.aac,.flac,audio/*" style="margin: 20px 0;">
         <div id="fileInfo"></div>
         
         <div class="control">
